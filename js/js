@@ -1,0 +1,56 @@
+function validateForm() {
+    const name = document.forms['message-form']['name-input'].value
+    if (name == '') {
+        document.getElementById("error-name").innerHTML = "cannot be empty!"
+        return false
+    }
+    setName(name);
+    return false;
+}
+
+function setName(name) {
+    document.getElementById("name").innerHTML = name;
+    document.getElementById('error-name').innerHTML = "";
+    return false;
+}
+
+function validateMessage() {
+    const name = document.forms["message-form"]["full-name"].value
+    const birthdate = document.forms["message-form"]["birth-date"].value
+    const gender = document.forms["message-form"]["gender"].value
+    const messages = document.forms["message-form"]["messages"].value
+
+    if (name == "" || birthdate == "" || gender == "" || messages == "") {
+        alert("cannot be empty!");
+        return false;
+    }
+    setSenderUI(name, birthdate, gender, messages)
+    return false;
+}
+
+function setSenderUI(name, birthdate, gender, messages) {
+    document.getElementById("sender-full-name").innerHTML = name;
+    document.getElementById("sender-birth-date").innerHTML = birthdate;
+    document.getElementById("sender-gender").innerHTML = gender;
+    document.getElementById("sender-messages").innerHTML = messages;
+}
+
+function submitForm() {
+    //Mengambil nilai input
+    const name =
+        document.getElementById("name").value;
+    const dob = document.getElementById("dob").value;
+    const gender =
+        document.querySelector('input [name="gender"]:checked').value
+    const messages =
+        document.getElementById('messages').value;
+    //memperbarui hasil di bawah form
+}
+
+function ShowResult() {
+    //memperbarui hasil di bawah form
+    document.getElementById("result-name").textContent = nama;
+    document.getElementById("result-birth-date").textContent = birthdate;
+    document.getElementById("result-gender").textContent = gender;
+    document.getElementById("result-messages").textContent = messages;
+}

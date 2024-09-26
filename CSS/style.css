@@ -1,0 +1,111 @@
+.main-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav {
+    display: flex;
+}
+
+nav>a {
+    border: 1px solid;
+    padding: 8px;
+    color: black;
+    text-decoration: none;
+}
+
+.logo-icon {
+    height: 50px;
+    width: 50px;
+    background-image: url(https://i.pinimg.com/originals/b4/8a/6b/b48a6b021ae96bb2b861b61a9cbbb49f.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%;
+}
+
+element.style {
+    display: flex;
+}
+
+a {
+    border: 1px solid;
+    padding: 8px;
+    color: black;
+    text-decoration: none;
+    border-radius: 10%;
+}
+
+.photo-banner {
+    border: 1px solid;
+    height: 700px;
+    background-image: url(https://wallpaperaccess.com/full/2286698.jpg);
+    background-position: top;
+    background-size: cover;
+}
+
+.profile-icon {
+    height: 200px;
+    width: 200px;
+    background-image: url(https://lh3.googleusercontent.com/etCKP5X-xFvKipEoiNnDk44C6uQ1Ltx3idaIr5n--Q9zxamNQgkiEdzIe66l1xKM5jn9UEknQrTC_qC-sT5_id6ZGfRXFq3c3hIUgCvB88Mk7ew=w960-rj-nu-e365);
+    background-size: cover;
+    background-position: center;
+}
+
+.profile-icon-container {
+    display: flex;
+    justify-content: center;
+}
+
+.profile-icon-container>div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.portofolio-icon1 {
+    height: 100px;
+    width: 100px;
+    background-image: url(https://i.pinimg.com/736x/e1/7d/e5/e17de562d44262e1b01fb5b9275932f8.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%;
+}
+
+.portofolio-icon2 {
+    height: 100px;
+    width: 100px;
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Jang_Wonyoung_%EC%9E%A5%EC%9B%90%EC%98%81_K%C3%A9rastase%E2%80%99s_NEW_Ambassador_03.jpg/220px-Jang_Wonyoung_%EC%9E%A5%EC%9B%90%EC%98%81_K%C3%A9rastase%E2%80%99s_NEW_Ambassador_03.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%;
+}
+
+.portofolio-icon3 {
+    height: 100px;
+    width: 100px;
+    background-image: url(https://kpopping.com/documents/ca/1/800/231214-WONYOUNG-ASIA-ARTIST-AWARDS-2023-documents-4.jpeg?v=9d921);
+    background-size: cover;
+    background-position: top;
+    border-radius: 50%;
+}
+
+.portofolio-icon4 {
+    height: 100px;
+    width: 100px;
+    background-image: url(https://www.kanal247.com/images/media/photo/2021/12/27/0000083393.jpg);
+    background-size: cover;
+    background-position: top;
+    border-radius: 50%;
+}
+
+.portofolio-icon-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.portofolio-icon-container>div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
